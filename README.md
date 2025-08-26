@@ -28,6 +28,7 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 ## 🛠️ Step 2: Build & Push Docker Image
+## 🛠️ Step 1: Install Dependencies (EC2)
 # Clone repo
 git clone https://github.com/<your-username>/nginx-k8s.git
 cd nginx-k8s
