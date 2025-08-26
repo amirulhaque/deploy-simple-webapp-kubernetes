@@ -27,7 +27,10 @@ sudo mv kubectl /usr/local/bin/
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
+---
+
 ## 🛠️ Step 2: Build & Push Docker Image
+```bash
 
 
 # Clone repo
@@ -42,6 +45,7 @@ docker login
 
 # Push image
 docker push <your-dockerhub-username>/k8s-nginx-app:v1
+---
 
 ## 🛠️ Step 3: Start Minikube
 
