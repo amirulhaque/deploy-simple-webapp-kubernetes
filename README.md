@@ -23,7 +23,7 @@ curl -LO "https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.t
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 
-# Install Minikube
+# Install Minikube or use k3 also for light weight 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 
 **🛠️ Step 2: Build & Push Docker Image**
